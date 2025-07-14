@@ -1,0 +1,53 @@
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[93, 59], [371, 59], [371, 99], [93, 99]], "text": "25.7.7. 오후 11:53", "confidence": 87.3963}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[1660, 59], [1844, 59], [1844, 99], [1660, 99]], "text": "1.GAN 소개", "confidence": 99.9167}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[1890, 67], [2239, 67], [2239, 98], [1890, 98]], "text": "PseudoLab Tutorial Book", "confidence": 63.4714}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[155, 113], [658, 113], [658, 200], [155, 200]], "text": "1.2.1. 모델 구조", "confidence": 90.9648}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[153, 258], [985, 258], [985, 319], [153, 319]], "text": "GAN의 아키택처지 도식화하면 다음과 같습니다:", "confidence": 59.6}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[745, 640], [995, 640], [995, 733], [745, 733]], "text": "Reallmages", "confidence": 85.7698}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[1382, 726], [1828, 726], [1828, 800], [1382, 800]], "text": "Discriminator Network", "confidence": 82.6436}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[2095, 722], [2421, 722], [2421, 800], [2095, 800]], "text": "Predicted Labels", "confidence": 64.8722}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[230, 804], [521, 804], [521, 878], [230, 878]], "text": "D-dimensional", "confidence": 74.7024}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[227, 902], [478, 902], [478, 970], [227, 970]], "text": "noise Vector", "confidence": 95.4316}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[672, 1292], [1056, 1292], [1056, 1366], [672, 1366]], "text": "Generator Network", "confidence": 99.959}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[1408, 1418], [1661, 1418], [1661, 1509], [1408, 1509]], "text": "Fake Images", "confidence": 88.9855}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[270, 1782], [2141, 1782], [2141, 1842], [270, 1842]], "text": "그림 1-2 GAN의 아키택처 (출처: Hamed Alqahtani. 2019.An Analysis Of Evaluation Metric Of GANs)", "confidence": 67.6518}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[153, 1894], [2459, 1894], [2459, 1963], [153, 1963]], "text": "생성기(G눈 실제 데이터와 비슷한 데이터들 만들어내도록 학습되며 , 판별기(D는 실제 데이터와 G가 생성한 가짜 데이터들 구별하도록 학", "confidence": 21.525}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[153, 1968], [2381, 1968], [2381, 2032], [153, 2032]], "text": "습월니다: GAN의 목적함수는 다음과 같은데 이논 게임이론 타입의 목적함수로 G와 D 2명의 플레이어가 싸우면서 서로 균형점(nash", "confidence": 25.5082}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[153, 2042], [923, 2042], [923, 2102], [153, 2102]], "text": "equilibrium)올 찾아가도록 하는 방식입니다:", "confidence": 50.5184}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[258, 2243], [540, 2243], [540, 2312], [258, 2312]], "text": "min max", "confidence": 92.9864}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[527, 2233], [810, 2233], [810, 2334], [527, 2334]], "text": "V(D,G)", "confidence": 98.43}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[815, 2257], [871, 2257], [871, 2302], [815, 2302]], "text": "=", "confidence": 99.9785}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[1104, 2233], [1582, 2233], [1582, 2334], [1104, 2334]], "text": "(a)[log D(a)] +", "confidence": 54.4595}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[1763, 2228], [2467, 2228], [2467, 2341], [1763, 2341]], "text": "(z)[log(1 - D(G(z)))]:", "confidence": 33.6469}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[435, 2304], [487, 2304], [487, 2348], [435, 2348]], "text": "D", "confidence": 99.9886}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[270, 2457], [1951, 2457], [1951, 2517], [270, 2517]], "text": "그림 1-3 GAN Value Function (출처: lan JGoodfellow. 2014. Generative Adversarial Nets)", "confidence": 54.5897}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[153, 2573], [1959, 2573], [1959, 2641], [153, 2641]], "text": "여기서 V(DG)의 값은 확출값으로 도출되논데, 이 수식올 각각 D와 G의 관점에서 살펴보면 다음과 같습니다:", "confidence": 38.3207}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[153, 2694], [2494, 2694], [2494, 2761], [153, 2761]], "text": "먼저 D의 관점에서 실제 데이터(x틀 입력하면 D(x)가 커지면서 log값이 커지면서 높은 확출값이 나오도록 하고 가짜 데이터(G(z)틀 입력하", "confidence": 24.5318}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[153, 2767], [2463, 2767], [2463, 2835], [153, 2835]], "text": "면 log값이 작아짐에 따라 낮은 확출값이 나오도록 학습되니다 다시 말해 D논 실제 데이터와 G가 만든 가짜 데이터름 잘 구분하도록 조금씩", "confidence": 30.8408}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[153, 2844], [559, 2844], [559, 2905], [153, 2905]], "text": "업데이트되는 것입니다:", "confidence": 83.2642}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[153, 2965], [2482, 2965], [2482, 3029], [153, 3029]], "text": "G에서는 Zero-Mean Gaussian 분포에서 노이즈 Z틀 멀리레이어 퍼센트론에 통과시켜 셈플들올 생성하여 이 생성문 가짜 데이터 G(z)틀 D", "confidence": 15.7736}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[153, 3033], [2467, 3033], [2467, 3102], [153, 3102]], "text": "에 input으로 넣없올 때 실제 데이터처럼 확출이 높게 나오도록 학습되니다: 즉 D(G(z))값을 높도록 그리고 전체 확출 값이 낮아지도록 하는", "confidence": 37.43}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[153, 3108], [1920, 3108], [1920, 3172], [153, 3172]], "text": "것이려 이논 다시 말해 G가 'D가 잘 구분하지 못하는' 데이터지 생성하도록 조금씩 업데이트되는 것입니다:", "confidence": 31.4093}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[153, 3228], [2467, 3228], [2467, 3292], [153, 3292]], "text": "실제 학습올 진행할 때는 G와 D 두 네트위크틀 동시에 학습시키지 않고 하나의 네트위크v 고정한 상태에서 다른 한 네트위크묶 업데이트하", "confidence": 16.8787}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[153, 3302], [807, 3302], [807, 3366], [153, 3366]], "text": "눈방식으로 따로따로 업데이트합니다:", "confidence": 64.985}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[151, 3490], [573, 3490], [573, 3574], [151, 3574]], "text": "1.2.2. CGAN", "confidence": 98.6115}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[150, 3627], [2455, 3627], [2455, 3688], [150, 3688]], "text": "CGAN은 Conditional Generative Adversarial Networks의 약자로 생성기와 판별기가 훈련하는 동안 추가 정보름 사용해 조건이 불는", "confidence": 42.8988}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[152, 3695], [2433, 3695], [2433, 3768], [152, 3768]], "text": "생성적 적대 신경망입니다 GAN과는 '생플렁올 어디서 해오는지'와 '데이터젯에 라엘이 있어야 하느지; 2가지 흑면에서 차이가 있습니다:", "confidence": 8.7336}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[150, 3771], [2319, 3771], [2319, 3835], [150, 3835]], "text": "CGAN올 이용하면 인위적으로 원하는 플래스의 데이터름 생성활 수 있으며 생성기와 판별기름 훈련하는 데에 label올 사용합니다:", "confidence": 17.0663}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[991, 3973], [1137, 3973], [1137, 4041], [991, 4041]], "text": "GAN", "confidence": 91.6737}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[1891, 3973], [2067, 3973], [2067, 4041], [1891, 4041]], "text": "CGAN", "confidence": 99.2058}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[704, 4059], [1411, 4059], [1411, 4160], [704, 4160]], "text": "Random 플래스 중에서", "confidence": 52.3601}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[1639, 4059], [2318, 4059], [2318, 4160], [1639, 4160]], "text": "원하는 플래스 중에서", "confidence": 72.3584}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[336, 4120], [485, 4120], [485, 4188], [336, 4188]], "text": "Dif.1", "confidence": 56.4638}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[821, 4156], [1295, 4156], [1295, 4257], [821, 4257]], "text": "셈플올 뽑는다", "confidence": 11.7872}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[1744, 4156], [2218, 4156], [2218, 4257], [1744, 4257]], "text": "셈플올 뽑는다", "confidence": 11.7681}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[791, 4265], [1321, 4265], [1321, 4357], [791, 4357]], "text": "Train 데이터센이", "confidence": 26.425}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[1709, 4260], [2241, 4260], [2241, 4358], [1709, 4358]], "text": "Train 데이터셋이", "confidence": 27.5969}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[336, 4322], [485, 4322], [485, 4390], [336, 4390]], "text": "Dif.2", "confidence": 65.3811}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[627, 4357], [1485, 4357], [1485, 4459], [627, 4459]], "text": "라빌림되어 있을 필요 없다;", "confidence": 34.0089}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[1593, 4357], [2361, 4357], [2361, 4455], [1593, 4455]], "text": "라빌림되어 있어야 한다.", "confidence": 74.7498}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[270, 4574], [819, 4574], [819, 4634], [270, 4634]], "text": "그림 1-4 GAN과 cGAN 차이점", "confidence": 74.1338}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[97, 4855], [1181, 4855], [1181, 4900], [97, 4900]], "text": "https:/lpseudo-labgithub iolTutorial-Booklchapters/GANChl-Introductionhtml", "confidence": 69.1515}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[3358, 4855], [3415, 4855], [3415, 4896], [3358, 4896]], "text": "216", "confidence": 51.2836}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[891, 2228], [1133, 2282], [1111, 2359], [869, 2305]], "text": "Ka~pdata (", "confidence": 43.7537}
+{"doc_id": "Text_AI_2_page_2", "page": 2, "bbox": [[1589, 2226], [1798, 2280], [1773, 2360], [1564, 2306]], "text": "Kz~pz(", "confidence": 66.9836}
